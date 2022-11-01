@@ -1,0 +1,226 @@
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(221, 240, 234);
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 1280px !important;
+    margin: 0 auto !important;
+}
+
+.navbar{
+    background-image: url(../images/html5.png);
+    image-resolution: 50px;
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    text-align: right;
+}
+
+.nav-item{
+    border-image: round;
+    text-align: left;
+}
+header{
+    background: url(../images/dylan-leagh-o3eZxJRrNRQ-unsplash.jpg);
+    background-size: cover;;
+    background-position: center;
+    height: 300px;
+    color: rgb(93, 226, 202);
+    text-shadow: 2px 2px rgba(0,0,0,0,5);
+    display: left;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+}
+
+section{
+    width: 32%;
+    flex-direction: column;
+    margin-bottom: 1em;
+    display: block;
+}
+
+.price{
+    background: rgb(16, 25, 10);
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+}
+
+aside {
+    width: 30%;
+    float: right;
+}
+
+aside h2 {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+aside ul li {
+    padding: 1em;
+}
+
+aside ul li:nth-of-type(odd) {
+    background-color: #ccc;
+}
+
+footer{
+    text-align: left;
+    float: left;
+}
+
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* DEFAULTS */
